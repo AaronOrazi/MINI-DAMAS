@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding: 1px;
+    background-color:indianred;
+    text-align: justify; 
+    align-items: stretch;
+    color: white; 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    color: white;
+    text-align: justify;
+    
+}
+
+footer{
+    padding: 50px;
+    background-color: grey;
+
+}
+
+
+.flex-container{
+  display: flex;
+  background-color: grey;
+  padding: 5px;
+  height: 300px;
+  flex-flow: column row wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-container div{
+  background-color: khaki;
+  margin: 5px;
+  padding: 10px;
+}
